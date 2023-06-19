@@ -1,0 +1,64 @@
+*{
+    border: 1px solid red;
+    font-family: 'Spectral', serif;;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactbg{
+    position:absolute;
+    z-index: -1;
+    width: 100%;
+    margin-top: -10px;
+}
+
+.contactbgimg{
+    width: 100%;
+    max-height: 900px;
+    object-fit: cover;
+}
+
+.contactme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    background-color: rgba(32, 178, 171, 0.404);
+    padding: 2%;
+    width:500px;
+    border: 3px outset darkgray;
+    border-radius: 5px;
+}
+
+.contactform{
+    display: flex;
+    flex-direction: column;
+    width: 80%
+}
+
+.contacthead{
+    font-weight: bolder;
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+}
+
+.submit{
+    margin-top: 2%;
+    width: 80%;
+    align-self: center;
+    font-weight: bold;
+}
+
+.home{
+    margin-top: 5%;
+    font-size: 1.25vw;
+    background-color: aliceblue;
+    font-weight: bold;
+}

@@ -1,0 +1,129 @@
+*{
+    font-family: 'Spectral', serif;;
+    /* border: 1px solid red; */
+    color:aliceblue
+}
+
+/* Header */
+
+body{
+    background-color: black;
+}
+
+.headerdiv{
+    display: flex;
+    justify-content: center;
+}
+
+.headerimg{
+    width: 100%;
+}
+
+/* Background */
+.mainbgcont{
+    z-index: -1;
+    position:absolute;
+    width: 100%;
+}
+
+.mainbgimg{
+    width: 100%;
+}
+
+/* Text Section 1*/
+
+.mypasttext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:4%;
+    padding-left:7%;
+    padding-bottom:5%;
+    padding-right:7%;
+    margin-bottom: 6%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.sectionhead{
+    font-size: 3vw;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.info{
+    font-size: 1.25vw;
+    text-align: center;
+}
+
+/* Subject Grid */
+
+.wrap-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 60px
+}
+
+.subject{
+    height:200px;
+    width: 349px;
+    object-fit: cover;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* My Now */
+.coding{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.codeman{
+    width: 50%;
+    object-fit: cover;
+}
+
+.present{
+    background-color:rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7%
+}
+
+.nowinfo{
+    text-align: center;
+}
+
+/* Bottom */
+.ending{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactlink{
+    color: blue;
+}
+
+.contactlink:hover{
+    color: blueviolet;
+}
